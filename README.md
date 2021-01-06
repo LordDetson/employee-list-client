@@ -4,6 +4,8 @@ Angular 10 + Spring Boot CRUD Full Stack App
 
 This is the front-end of the project. You can see the backend of the project [here](https://github.com/LordDetson/employees-list).
 
+Created according to [this guide](https://youtube.com/playlist?list=PLGRDMO4rOGcNzi3CpBWsCdQSzbjdWWy-f). Great thanks to [Ramesh Fadatare](https://github.com/RameshMF)!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Commit flags
