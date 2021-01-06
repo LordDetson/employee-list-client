@@ -28,4 +28,11 @@ export class EmployeeListComponent implements OnInit {
   goToUpdate(id: number): void {
     this.router.navigate([`update-employee`, id]);
   }
+
+  delete(id: number): void {
+    this.employeeServes.delete(id).subscribe(data => {
+      console.log(data);
+      this.getAllEmployees();
+    }, error => console.log(error));
+  }
 }
