@@ -1,6 +1,18 @@
-# EmployeeListClient
+# employees-list-client
+
+Angular 10 + Spring Boot CRUD Full Stack App
+
+This is the front-end of the project. You can see the backend of the project [here](https://github.com/LordDetson/employees-list).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+
+## Commit flags
+
+config: - project setting
+
+feat: - implementation of feature
+
+fix: - bug fixes
 
 ## Development server
 
