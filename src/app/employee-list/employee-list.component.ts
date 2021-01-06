@@ -35,4 +35,8 @@ export class EmployeeListComponent implements OnInit {
       this.getAllEmployees();
     }, error => console.log(error));
   }
+
+  goToView(id: number): void {
+    this.router.navigate([`employee-view`, id]);
+  }
 }
